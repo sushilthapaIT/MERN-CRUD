@@ -1,0 +1,67 @@
+/* Main container styling */
+.pane-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 20px;
+}
+
+/* Heading styling */
+.heading {
+    color: #fff; /* White text for heading */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Alert styling */
+.alert {
+    width: 100%;
+    max-width: 400px;
+    background-color: #333; /* Dark gray alert background */
+    color: #fff; /* White alert text */
+    border: 1px solid #fff; /* White border for alert */
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.text-input-field {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px; /* Reduced margin for closer spacing */
+}
+
+.text-input-field input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #fff; /* White border for inputs */
+    border-radius: 5px;
+    background-color: #333; /* Dark gray input background */
+    color: #fff; /* White input text */
+}
+
+.text-input-field label {
+    color: #fff; /* White label text */
+    margin-bottom: 3px; /* Small margin below the label */
+}
+
+/* Button styling */
+.button {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 20px;
+    background-color: #333; /* Dark gray button background */
+    color: #fff; /* White button text */
+    border: 1px solid #fff; /* White border */
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #555; /* Lighter gray on hover */
+}
