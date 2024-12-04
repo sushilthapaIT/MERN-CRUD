@@ -3,7 +3,7 @@
 # CSD-4553-02
 The code base of the course CSD-3130-02 Full Stack JavaScript
 
-# AWS S3 File Upload System
+# Mern Stack
 This is a simple secure web application using MERN stack that allows users to manage the following data:
 User Last Name, First Name, Date of Birth, Address1, Address2, City, Postal Code, Country, Phone-Number, Email and User Notes.
 
